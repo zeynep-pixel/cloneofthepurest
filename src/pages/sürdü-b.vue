@@ -11,18 +11,18 @@
   </div>
 
   <div id="deneme">
-    <div class="tab-wrap" style="width: 1500px">
+    <div class="tab-wrap">
       <input type="radio" name="tabs" id="tab1" />
       <div class="tab-label-content" id="tab1-content">
         <label
           for="tab1"
-          style="width: 80px; height: 90px; background-color: #e5243b"
+          style="width: 95px; height: 90px; background-color: #e5243b"
           >1</label
         >
         <div class="tab-content">
           <div
             class="row"
-            style="width: 1480px; height: 150px; background-color: #e5243b"
+            style="width: 1425px; height: 150px; background-color: #e5243b"
           >
             <div class="col"><p id="yazı">#1 Yoksulluğa Son</p></div>
             <div class="col">
@@ -36,7 +36,7 @@
           </div>
           <div
             class="row"
-            style="width: 1480px; height: 150px; background-color: #e5243b"
+            style="width: 1425px; height: 150px; background-color: #e5243b"
           >
             <li id="açıklama">Sıklıkla çalışan desteği sağlanmaktadır.</li>
           </div>
@@ -47,13 +47,13 @@
       <div class="tab-label-content" id="tab2-content">
         <label
           for="tab2"
-          style="width: 80px; height: 90px; background-color: #dda60a"
+          style="width: 95px; height: 90px; background-color: #dda60a"
           >2</label
         >
         <div class="tab-content">
           <div
             class="row"
-            style="width: 1480px; height: 150px; background-color: #dda60a"
+            style="width: 1425px; height: 150px; background-color: #dda60a"
           >
             <div class="col"><p id="yazı">#2 Açlığa Son</p></div>
             <div class="col">
@@ -67,7 +67,7 @@
           </div>
           <div
             class="row"
-            style="width: 1480px; height: 150px; background-color: #dda60a"
+            style="width: 1425px; height: 150px; background-color: #dda60a"
           >
             <div class="col">
               <li id="açıklama">
@@ -87,13 +87,13 @@
       <div class="tab-label-content" id="tab3-content">
         <label
           for="tab3"
-          style="width: 80px; height: 90px; background-color: #4c9f38"
+          style="width: 95px; height: 90px; background-color: #4c9f38"
           >3</label
         >
         <div class="tab-content">
           <div
             class="row"
-            style="width: 1480px; height: 150px; background-color: #4c9f38"
+            style="width: 1425px; height: 150px; background-color: #4c9f38"
           >
             <div class="col"><p id="yazı">#3 Sağlık ve Kaliteli Yaşam</p></div>
             <div class="col">
@@ -107,7 +107,7 @@
           </div>
           <div
             class="row"
-            style="width: 1480px; height: 150px; background-color: #4c9f38"
+            style="width: 1425px; height: 150px; background-color: #4c9f38"
           >
             <div class="col">
               <li id="açıklama">
@@ -129,13 +129,13 @@
       <div class="tab-label-content" id="tab4-content">
         <label
           for="tab4"
-          style="width: 80px; height: 90px; background-color: #c5192d"
+          style="width: 95px; height: 90px; background-color: #c5192d"
           >4</label
         >
         <div class="tab-content">
           <div
             class="row"
-            style="width: 1480px; height: 150px; background-color: #c5192d"
+            style="width: 1425px; height: 150px; background-color: #c5192d"
           >
             <div class="col"><p id="yazı">#4 Nitelikli Eğitim</p></div>
             <div class="col">
@@ -149,7 +149,7 @@
           </div>
           <div
             class="row"
-            style="width: 1480px; height: 150px; background-color: #c5192d"
+            style="width: 1425px; height: 150px; background-color: #c5192d"
           >
             <div class="col">
               <li id="açıklama">
@@ -166,7 +166,7 @@
           </div>
           <div
             class="row"
-            style="width: 1480px; height: 150px; background-color: #c5192d"
+            style="width: 1425px; height: 150px; background-color: #c5192d"
           >
             <div class="col">
               <li id="açıklama">
@@ -189,13 +189,13 @@
       <div class="tab-label-content" id="tab5-content">
         <label
           for="tab5"
-          style="width: 80px; height: 90px; background-color: #ff3a21"
+          style="width: 95px; height: 90px; background-color: #ff3a21"
           >5</label
         >
         <div class="tab-content">
           <div
             class="row"
-            style="width: 1480px; height: 150px; background-color: #ff3a21"
+            style="width: 1425px; height: 150px; background-color: #ff3a21"
           >
             <div class="col">
               <p id="yazı">#5 Toplumsal Cinsiyet Eşitliği</p>
@@ -211,7 +211,7 @@
           </div>
           <div
             class="row"
-            style="width: 1480px; height: 150px; background-color: #ff3a21"
+            style="width: 1425px; height: 150px; background-color: #ff3a21"
           >
             <div class="col">
               <li id="açıklama">
@@ -229,7 +229,7 @@
           </div>
           <div
             class="row"
-            style="width: 1480px; height: 150px; background-color: #ff3a21"
+            style="width: 1425px; height: 150px; background-color: #ff3a21"
           >
             <div class="col">
               <li id="açıklama">
@@ -243,13 +243,13 @@
       <div class="tab-label-content" id="tab6-content">
         <label
           for="tab6"
-          style="width: 80px; height: 90px; background-color: #26bde2"
+          style="width: 95px; height: 90px; background-color: #26bde2"
           >6</label
         >
         <div class="tab-content">
           <div
             class="row"
-            style="width: 1480px; height: 150px; background-color: #26bde2"
+            style="width: 1425px; height: 150px; background-color: #26bde2"
           >
             <div class="col">
               <p id="yazı">#6 Temiz Su ve Sanitasyon</p>
@@ -265,7 +265,7 @@
           </div>
           <div
             class="row"
-            style="width: 1480px; height: 150px; background-color: #26bde2"
+            style="width: 1425px; height: 150px; background-color: #26bde2"
           >
             <div class="col">
               <li id="açıklama">
@@ -282,7 +282,7 @@
           </div>
           <div
             class="row"
-            style="width: 1480px; height: 150px; background-color: #26bde2"
+            style="width: 1425px; height: 150px; background-color: #26bde2"
           >
             <div class="col">
               <li id="açıklama">
@@ -303,13 +303,13 @@
       <div class="tab-label-content" id="tab7-content">
         <label
           for="tab7"
-          style="width: 80px; height: 90px; background-color: #fcc30b"
+          style="width: 95px; height: 90px; background-color: #fcc30b"
           >7</label
         >
         <div class="tab-content">
           <div
             class="row"
-            style="width: 1480px; height: 150px; background-color: #fcc30b"
+            style="width: 1425px; height: 150px; background-color: #fcc30b"
           >
             <div class="col">
               <p id="yazı">#7 Erişilebilir Ve Temiz Enerji</p>
@@ -325,7 +325,7 @@
           </div>
           <div
             class="row"
-            style="width: 1480px; height: 150px; background-color: #fcc30b"
+            style="width: 1425px; height: 150px; background-color: #fcc30b"
           >
             <li id="açıklama">
               2023 yılında planlanan üretim tesisimiz temiz enerji esas alınarak
@@ -338,13 +338,13 @@
       <div class="tab-label-content" id="tab8-content">
         <label
           for="tab8"
-          style="width: 80px; height: 90px; background-color: #a21942"
+          style="width: 95px; height: 90px; background-color: #a21942"
           >8</label
         >
         <div class="tab-content">
           <div
             class="row"
-            style="width: 1480px; height: 150px; background-color: #a21942"
+            style="width: 1425px; height: 150px; background-color: #a21942"
           >
             <div class="col">
               <p id="yazı" style="width: 800px">
@@ -362,7 +362,7 @@
           </div>
           <div
             class="row"
-            style="width: 1480px; height: 150px; background-color: #a21942"
+            style="width: 1425px; height: 150px; background-color: #a21942"
           >
             <li id="açıklama">
               Engelli kontenjanı 2023 yılında istihdama açılacaktır.
@@ -375,16 +375,16 @@
       <div class="tab-label-content" id="tab9-content">
         <label
           for="tab9"
-          style="width: 80px; height: 90px; background-color: #dd1367"
+          style="width: 95px; height: 90px; background-color: #dd1367"
           >9</label
         >
         <div class="tab-content">
           <div
             class="row"
-            style="width: 1480px; height: 150px; background-color: #dd1367"
+            style="width: 1425px; height: 150px; background-color: #dd1367"
           >
             <div class="col">
-              <p id="yazı">#10 Eşitsizliklerin Azaltılması</p>
+              <p id="yazı">#9 Eşitsizliklerin Azaltılması</p>
             </div>
             <div class="col">
               <div id="resim">
@@ -397,7 +397,7 @@
           </div>
           <div
             class="row"
-            style="width: 1480px; height: 150px; background-color: #dd1367"
+            style="width: 1425px; height: 150px; background-color: #dd1367"
           >
             <div class="col">
               <li id="açıklama">
@@ -413,6 +413,278 @@
           </div>
         </div>
       </div>
+
+      <input type="radio" name="tabs" id="tab10" />
+      <div class="tab-label-content" id="tab10-content">
+        <label
+          for="tab10"
+          style="width: 95px; height: 90px; background-color: #bf8b2e"
+          >10</label
+        >
+        <div class="tab-content">
+          <div
+            class="row"
+            style="width: 1425px; height: 150px; background-color: #bf8b2e"
+          >
+            <div class="col">
+              <p id="yazı" style="width: 800px">
+                #10 Sorumlu Tüketim Ve Üretim Alanları
+              </p>
+            </div>
+            <div class="col">
+              <div id="resim">
+                <q-img
+                  src="https://cdn.myikas.com/images/theme-images/a115b796-20cc-4eea-9f20-3af95f38d508/image_1080.webp"
+                  style="width: 80px; height: 80px"
+                ></q-img>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row"
+            style="width: 1425px; height: 150px; background-color: #bf8b2e"
+          >
+            <div class="col">
+              <li id="açıklama">
+                Fabrikamızdan çıkan kutuları 3 kez tekrar kullanarak atık
+                oluşumunu azaltıyoruz.(585 ağaç korundu.)
+              </li>
+            </div>
+            <div class="col">
+              <li id="açıklama">
+                Yeni kalıplarımız ile kutu üretiminde ürün israfını
+                önlüyoruz.(393 ağaç korundu.)
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <input type="radio" name="tabs" id="tab11" />
+      <div class="tab-label-content" id="tab11-content">
+        <label
+          for="tab11"
+          style="width: 95px; height: 90px; background-color: #3f7e44"
+          >11</label
+        >
+        <div class="tab-content">
+          <div
+            class="row"
+            style="width: 1425px; height: 150px; background-color: #3f7e44"
+          >
+            <div class="col">
+              <p id="yazı">#11 İklim Eylemi</p>
+            </div>
+            <div class="col">
+              <div id="resim">
+                <q-img
+                  src="https://cdn.myikas.com/images/theme-images/0dc47abd-ce9e-4200-9bbc-7912f993ac9d/image_1080.webp"
+                  style="width: 80px; height: 80px"
+                ></q-img>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row"
+            style="width: 1425px; height: 150px; background-color: #3f7e44"
+          >
+            <div class="col">
+              <li id="açıklama">
+                TPS Heroes: Düzenli aralıklar ile sahil ve orman temizliği
+                etkinlikleri yapıyoruz.
+              </li>
+            </div>
+            <div class="col">
+              <li id="açıklama">
+                Ecording ile 250.000 tohum atışı gerçekleştirildi (%40'ı ağaç
+                oldu.)
+              </li>
+            </div>
+          </div>
+          <div
+            class="row"
+            style="width: 1425px; height: 150px; background-color: #3f7e44"
+          >
+            <div class="col">
+              <li id="açıklama">TEMA STK'sı ile 5000 Ağaç dikildi.</li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <input type="radio" name="tabs" id="tab12" />
+      <div class="tab-label-content" id="tab12-content">
+        <label
+          for="tab12"
+          style="width: 95px; height: 90px; background-color: #0a97d9"
+          >12</label
+        >
+        <div class="tab-content">
+          <div
+            class="row"
+            style="width: 1425px; height: 150px; background-color: #0a97d9"
+          >
+            <div class="col">
+              <p id="yazı" style="width: 800px">#12 Sudaki Yaşam</p>
+            </div>
+            <div class="col">
+              <div id="resim">
+                <q-img
+                  src="https://cdn.myikas.com/images/theme-images/3004977b-08ff-4a30-b123-73bfefd6de2a/image_1080.webp"
+                  style="width: 80px; height: 80px"
+                ></q-img>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row"
+            style="width: 1425px; height: 150px; background-color: #0a97d9"
+          >
+            <div class="col">
+              <li id="açıklama">
+                Ambalajlardaki plastik miktarı azaltılmıştır.
+              </li>
+            </div>
+            <div class="col">
+              <li id="açıklama">
+                Plastik şişeli ürünler için yeniden dolum paketleri sağlıyoruz.
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <input type="radio" name="tabs" id="tab13" />
+      <div class="tab-label-content" id="tab13-content">
+        <label
+          for="tab13"
+          style="width: 95px; height: 90px; background-color: #56c02b"
+          >13</label
+        >
+        <div class="tab-content">
+          <div
+            class="row"
+            style="width: 1425px; height: 150px; background-color: #56c02b"
+          >
+            <div class="col"><p id="yazı">#13 Karasal Yaşam</p></div>
+            <div class="col">
+              <div id="resim">
+                <q-img
+                  src="https://cdn.myikas.com/images/theme-images/ddbc8187-065e-4612-a47d-dcf559e2a028/image_1080.webp"
+                  style="width: 80px; height: 80px"
+                ></q-img>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row"
+            style="width: 1425px; height: 150px; background-color: #56c02b"
+          >
+            <div class="col">
+              <li id="açıklama">
+                Ürün paketleme için Orman Yönetim Konseyi onaylı kağıtlar
+                kullanılmaktadır.
+              </li>
+            </div>
+            <div class="col">
+              <li id="açıklama">
+                Düzenli aralıklar ile park ve orman temizliği etkinlikleri
+                yapılmaktadır.
+              </li>
+            </div>
+          </div>
+          <div
+            class="row"
+            style="width: 1425px; height: 150px; background-color: #56c02b"
+          >
+            <div class="col">
+              <li id="açıklama">
+                Farkındalığı artırmak amacıyla kullanıcılarımıza verdikleri
+                siparişlerle HAÇİKO ortaklığında köpek & kedi maması
+                dağıtıyoruz.
+              </li>
+            </div>
+            <div class="col">
+              <li id="açıklama">Kutu inovasyonumuz ile 761 ağacı koruduk.</li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <input type="radio" name="tabs" id="tab14" />
+      <div class="tab-label-content" id="tab14-content">
+        <label
+          for="tab14"
+          style="width: 95px; height: 90px; background-color: #00689d"
+          >14</label
+        >
+        <div class="tab-content">
+          <div
+            class="row"
+            style="width: 1425px; height: 150px; background-color: #00689d"
+          >
+            <div class="col">
+              <p id="yazı" style="width: 1000px">
+                #14 BARIŞ, ADALET VE GÜÇLÜ KURUMLAR
+              </p>
+            </div>
+            <div class="col">
+              <div id="resim">
+                <q-img
+                  src="https://cdn.myikas.com/images/theme-images/b06fbdf7-464c-4e80-97e4-869a7d652196/image_1080.webp"
+                  style="width: 80px; height: 80px"
+                ></q-img>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row"
+            style="width: 1425px; height: 150px; background-color: #00689d"
+          >
+            <li id="açıklama">
+              Sektör kurumları bünyesinde sürdürülebilirlik komisyonu kurularak
+              bakanlıklar ile görüşmelere başlanması planlanmaktadır.
+            </li>
+          </div>
+        </div>
+      </div>
+      <input type="radio" name="tabs" id="tab15" />
+      <div class="tab-label-content" id="tab15-content">
+        <label
+          for="tab15"
+          style="width: 95px; height: 90px; background-color: #19486a"
+          >15</label
+        >
+        <div class="tab-content">
+          <div
+            class="row"
+            style="width: 1425px; height: 150px; background-color: #19486a"
+          >
+            <div class="col">
+              <p id="yazı">#15 Amaçlar için Ortaklıklar</p>
+            </div>
+            <div class="col">
+              <div id="resim">
+                <q-img
+                  src="https://cdn.myikas.com/images/theme-images/363b594e-0d2b-4c1d-ab8c-81802307dc84/image_1080.webp"
+                  style="width: 80px; height: 80px"
+                ></q-img>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row"
+            style="width: 1425px; height: 150px; background-color: #19486a"
+          >
+            <li id="açıklama">
+              Daha iyi bir dünya için çeşitli sivil toplum kuruluşları ve
+              kurumlar ile iş birlikleri geliştiriyoruz. (HACIKO, Hayata Destek,
+              Çorbada Tuzun Olsun)
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="resim2">
+      <q-img
+        src="https://cdn.myikas.com/images/theme-images/f240e4ed-b93c-4e98-a02b-6ffa5418eb92/image_2560.webp"
+      ></q-img>
     </div>
   </div>
 </template>
@@ -485,6 +757,7 @@ label {
   .tab-content {
     position: absolute;
     padding-left: 30px;
+
     left: 0px;
     line-height: 130%;
     display: none;
@@ -510,6 +783,7 @@ label {
 
 #deneme {
   padding-top: 300px;
+  padding-left: 18px;
 }
 
 #enterance {
@@ -524,6 +798,9 @@ label {
   font-size: 40px;
   font-family: "Museo", sans-serif;
   color: #435364;
+}
+#resim2 {
+  padding-top: 300px;
 }
 </style>
 <script>
