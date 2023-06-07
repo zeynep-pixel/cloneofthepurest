@@ -27,12 +27,9 @@
     </div>
   </div>
   <div id="roww" class="row">
-    <div class="col q-pt-xl">
+    <div class="col q-pt-xl" v-for="product in products1" :key="product">
       <div>
-        <q-img
-          src="https://cdn.myikas.com/images/d3378d43-0c01-4053-9a53-957c4ae7edc1/09d165bf-5d49-4b07-8bc2-1332443ba386/1080/mavi-cleanser---new.webp"
-          style="height: 350px; width: 325px"
-        ></q-img>
+        <q-img :src="product.src" style="height: 350px; width: 325px"></q-img>
       </div>
       <div>
         <p
@@ -40,9 +37,7 @@
           style="height: 80px; width: 300px"
           id="productnamee"
         >
-          Nemlendirici ve Bariyer Onarıcı Kuru ve Karma Ciltler için Hyaluronik
-          Asit Temizleme Jeli 200 ml (%0,5 Hyaluronic Acid, %0.5 Sodium PCA
-          Ceramide)
+          {{ product.name }}
         </p>
       </div>
       <div class="q-pt-xl" id="icons">
@@ -60,7 +55,7 @@
         ></q-img>
       </div>
       <div class="row">
-        <p class="q-pt-md" id="productprice">224 TL</p>
+        <p class="q-pt-md" id="productprice">{{ product.price }}</p>
 
         <q-rating
           id="rating"
@@ -107,12 +102,9 @@
     </div>
   </div>
   <div id="roww" class="row">
-    <div class="col q-pt-xl">
+    <div class="col q-pt-xl" v-for="product in products2" :key="product">
       <div>
-        <q-img
-          src="https://cdn.myikas.com/images/d3378d43-0c01-4053-9a53-957c4ae7edc1/09d165bf-5d49-4b07-8bc2-1332443ba386/1080/mavi-cleanser---new.webp"
-          style="height: 350px; width: 325px"
-        ></q-img>
+        <q-img :src="product.src" style="height: 350px; width: 325px"></q-img>
       </div>
       <div>
         <p
@@ -120,9 +112,7 @@
           style="height: 80px; width: 300px"
           id="productnamee"
         >
-          Nemlendirici ve Bariyer Onarıcı Kuru ve Karma Ciltler için Hyaluronik
-          Asit Temizleme Jeli 200 ml (%0,5 Hyaluronic Acid, %0.5 Sodium PCA
-          Ceramide)
+          {{ product.name }}
         </p>
       </div>
       <div class="q-pt-xl" id="icons">
@@ -140,7 +130,7 @@
         ></q-img>
       </div>
       <div class="row">
-        <p class="q-pt-md" id="productprice">224 TL</p>
+        <p class="q-pt-md" id="productprice">{{ product.price }}</p>
 
         <q-rating
           id="rating"
@@ -191,12 +181,9 @@
     </div>
   </div>
   <div id="roww" class="row">
-    <div class="col q-pt-xl">
+    <div class="col q-pt-xl" v-for="product in products3" :key="product">
       <div>
-        <q-img
-          src="https://cdn.myikas.com/images/d3378d43-0c01-4053-9a53-957c4ae7edc1/09d165bf-5d49-4b07-8bc2-1332443ba386/1080/mavi-cleanser---new.webp"
-          style="height: 350px; width: 325px"
-        ></q-img>
+        <q-img :src="product.src" style="height: 350px; width: 325px"></q-img>
       </div>
       <div>
         <p
@@ -204,9 +191,7 @@
           style="height: 80px; width: 300px"
           id="productnamee"
         >
-          Nemlendirici ve Bariyer Onarıcı Kuru ve Karma Ciltler için Hyaluronik
-          Asit Temizleme Jeli 200 ml (%0,5 Hyaluronic Acid, %0.5 Sodium PCA
-          Ceramide)
+          {{ product.name }}
         </p>
       </div>
       <div class="q-pt-xl" id="icons">
@@ -224,7 +209,7 @@
         ></q-img>
       </div>
       <div class="row">
-        <p class="q-pt-md" id="productprice">224 TL</p>
+        <p class="q-pt-md" id="productprice">{{ product.price }}</p>
 
         <q-rating
           id="rating"
@@ -268,13 +253,10 @@
       </p>
     </div>
   </div>
-  <div id="roww" class="row">
-    <div class="col q-pt-xl">
+  <div id="roww" class="row" style="width: 800px">
+    <div class="col q-pt-xl" v-for="product in products4" :key="product">
       <div>
-        <q-img
-          src="https://cdn.myikas.com/images/d3378d43-0c01-4053-9a53-957c4ae7edc1/09d165bf-5d49-4b07-8bc2-1332443ba386/1080/mavi-cleanser---new.webp"
-          style="height: 350px; width: 325px"
-        ></q-img>
+        <q-img :src="product.src" style="height: 350px; width: 325px"></q-img>
       </div>
       <div>
         <p
@@ -282,9 +264,7 @@
           style="height: 80px; width: 300px"
           id="productnamee"
         >
-          Nemlendirici ve Bariyer Onarıcı Kuru ve Karma Ciltler için Hyaluronik
-          Asit Temizleme Jeli 200 ml (%0,5 Hyaluronic Acid, %0.5 Sodium PCA
-          Ceramide)
+          {{ product.name }}
         </p>
       </div>
       <div class="q-pt-xl" id="icons">
@@ -302,7 +282,7 @@
         ></q-img>
       </div>
       <div class="row">
-        <p class="q-pt-md" id="productprice">224 TL</p>
+        <p class="q-pt-md" id="productprice">{{ product.price }}</p>
 
         <q-rating
           id="rating"
@@ -347,13 +327,10 @@
       </p>
     </div>
   </div>
-  <div id="roww" class="row">
-    <div class="col q-pt-xl">
+  <div id="roww" class="row" style="width: 800px">
+    <div class="col q-pt-xl" v-for="product in products5" :key="product">
       <div>
-        <q-img
-          src="https://cdn.myikas.com/images/d3378d43-0c01-4053-9a53-957c4ae7edc1/09d165bf-5d49-4b07-8bc2-1332443ba386/1080/mavi-cleanser---new.webp"
-          style="height: 350px; width: 325px"
-        ></q-img>
+        <q-img :src="product.src" style="height: 350px; width: 325px"></q-img>
       </div>
       <div>
         <p
@@ -361,9 +338,7 @@
           style="height: 80px; width: 300px"
           id="productnamee"
         >
-          Nemlendirici ve Bariyer Onarıcı Kuru ve Karma Ciltler için Hyaluronik
-          Asit Temizleme Jeli 200 ml (%0,5 Hyaluronic Acid, %0.5 Sodium PCA
-          Ceramide)
+          {{ product.name }}
         </p>
       </div>
       <div class="q-pt-xl" id="icons">
@@ -381,7 +356,7 @@
         ></q-img>
       </div>
       <div class="row">
-        <p class="q-pt-md" id="productprice">224 TL</p>
+        <p class="q-pt-md" id="productprice">{{ product.price }}</p>
 
         <q-rating
           id="rating"
@@ -487,5 +462,99 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "rutin-o",
+  data() {
+    return {
+      products1: [
+        {
+          price: "₺ 249.90",
+          name: "Nemlendirici ve Bariyer Onarıcı Kuru ve Karma Ciltler için Hyaluronik Asit Temizleme Jeli 200 ml (%0,5 Hyaluronic Acid, %0.5 Sodium PCA Ceramide) ",
+          src: "https://cdn.myikas.com/images/d3378d43-0c01-4053-9a53-957c4ae7edc1/09d165bf-5d49-4b07-8bc2-1332443ba386/1080/mavi-cleanser---new.webp",
+        },
+        {
+          price: "₺ 249.90",
+          name: "Sivilce ve Siyah Nokta Karşıtı Yağlı ve Karma Ciltler İçin Arındırıcı Temizleme Jeli 200 ml (0,5 % Salicylic Acid, 1% Niacinamide)",
+          src: "https://cdn.myikas.com/images/d3378d43-0c01-4053-9a53-957c4ae7edc1/879af128-b62b-4488-a7d9-df90a1846b42/1296/sari-cleanser---new.webp",
+        },
+        {
+          price: "₺ 379.90",
+          name: "Arındırıcı ve Canlandırıcı Tüm ciltler için  Meyve Asitleri İçeren Toz Temizleyici 55 Gr (%0,2 Azelaik Asit & Malik Asit) ",
+          src: "https://cdn.myikas.com/images/d3378d43-0c01-4053-9a53-957c4ae7edc1/bd62af63-489f-423f-9d49-8349adccaeb8/1080/tps207-1.webp",
+        },
+        {
+          price: "₺ 409.90",
+          name: "Arındırıcı Ve Aydınlatıcı Enzim Peeling Toz Temizleyici 55 Gr (%0,6 Azelaic Acid & Malic Acid)",
+          src: "https://cdn.myikas.com/images/d3378d43-0c01-4053-9a53-957c4ae7edc1/c62131db-886e-4266-904b-f247a71c9c52/1296/tps206-1.webp",
+        },
+      ],
+      products2: [
+        {
+          price: "₺ 299.90",
+          name: "TPS X LESS (Oil Control Toner + 2 Temizleme Pamuğu)",
+          src: "https://cdn.myikas.com/images/d3378d43-0c01-4053-9a53-957c4ae7edc1/f52b74b6-a634-4bed-9b0e-8789cd37cc64/image_1080.webp",
+        },
+        {
+          price: "₺ 279.90",
+          name: "Gözenek Sıkılaştırıcı Ve Arındırıcı Sürdürülebilir 2'Li Cilt Bakım Seti (Less Pamuk + TPS Tonik)",
+          src: "https://cdn.myikas.com/images/d3378d43-0c01-4053-9a53-957c4ae7edc1/7280794b-a0c5-415a-88d1-9218339ead23/image_1080.webp",
+        },
+        {
+          price: "₺ 279.90",
+          name: "Yağlı Ve Karma Cilt Sivilce Ve Siyah Nokta Karşıtı,Gözenek Sıkılaştırıcı Salisilik Asit Tonik 200 Ml",
+          src: "https://cdn.myikas.com/images/d3378d43-0c01-4053-9a53-957c4ae7edc1/197bf082-6cfc-4625-b86a-00466512cdcb/1080/275697b1-11d0-4b75-aa0b-8fd9f4ebad42.webp",
+        },
+        {
+          price: "₺ 279.90",
+          name: "Sivilce Ve Siyah Nokta Karşıtı, Gözenek Sıkılaştırıcı Yağlı Ve Karma Ciltler Için Glikolik Asit Tonik 200 Ml.",
+          src: "https://cdn.myikas.com/images/d3378d43-0c01-4053-9a53-957c4ae7edc1/69332226-cb72-4e61-92db-d201896d9592/1080/tps104-1.webp",
+        },
+      ],
+      products3: [
+        {
+          price: "₺ 269.90",
+          name: "Gözenek Ve Siyah Nokta Karşıtı, Sivilce Önleyici Niacinamide Cilt Bakım Serumu 30 Ml (Niacinamide 5% & Zinc Pca 1%)",
+          src: "https://cdn.myikas.com/images/d3378d43-0c01-4053-9a53-957c4ae7edc1/61399e99-7a42-42b1-9e8a-5b39bc4c561b/1080/bdd33a59-8560-4319-bfde-1513b38b96e0.webp",
+        },
+        {
+          price: "₺ 279.90",
+          name: "AHA & BHA Canlandırıcı & Cilt Tonu Eşitleyici Kırmızı Peeling Cilt Bakım Serumu 30 Ml  (Aha 10% + Bha 2%)",
+          src: "https://cdn.myikas.com/images/d3378d43-0c01-4053-9a53-957c4ae7edc1/b8254b91-2172-4fc3-b2f1-8276138a7dc6/1080/tps101-1.webp",
+        },
+        {
+          price: "₺ 269.90",
+          name: "Yoğun Nemlendirme Ve Dolgunlaştırıcı Etkili, Yenileyici Cilt Bakım Serumu 30 Ml (Hyaluronic Acid %2 + B5)",
+          src: "https://cdn.myikas.com/images/d3378d43-0c01-4053-9a53-957c4ae7edc1/e792c062-cf71-4d08-b04b-bb7446949cde/1080/578f3af1-b9d9-448a-8aef-12f7dd04eaf9.webp",
+        },
+        {
+          price: "₺ 279.90",
+          name: "Leke Karşıtı Ve Leke Görünümü Azaltıcı Arbutin Cilt Bakım Serumu 30 Ml  (Arbutin %2 + Hyaluronic Acid)",
+          src: "https://cdn.myikas.com/images/d3378d43-0c01-4053-9a53-957c4ae7edc1/ab67e95e-3740-477d-9742-ab4210c159c5/1080/tps103-1.webp",
+        },
+      ],
+      products4: [
+        {
+          price: "₺ 269.90",
+          name: "Yoğun Nemlendirme Ve Dolgunlaştırıcı Etkili, Yenileyici Cilt Bakım Serumu 30 Ml (Hyaluronic Acid %2 + B5)",
+          src: "https://cdn.myikas.com/images/d3378d43-0c01-4053-9a53-957c4ae7edc1/e792c062-cf71-4d08-b04b-bb7446949cde/1080/578f3af1-b9d9-448a-8aef-12f7dd04eaf9.webp",
+        },
+        {
+          price: "₺ 279.90",
+          name: "24 Saat Etkili Günlük Yoğun Nemlendirici Cilt Bakım Kremi 50 Ml",
+          src: "https://cdn.myikas.com/images/d3378d43-0c01-4053-9a53-957c4ae7edc1/bb4f1ad1-689c-4f1b-a2e7-3c71a0aa1b6b/image_1080.webp",
+        },
+      ],
+      products5: [
+        {
+          price: "₺ 209.92",
+          name: "Yüksek Koruma Ve Nemlendirici Etkili Güneş Koruyucu Krem SPF 50, 50 Ml.",
+          src: "https://cdn.myikas.com/images/d3378d43-0c01-4053-9a53-957c4ae7edc1/4d7e12cd-1e65-4f55-9e55-726f22a85049/image_1080.webp",
+        },
+        {
+          price: "₺ 209.92",
+          name: "Leke Karşıtı Ve Cilt Tonu Eşitleyici Renkli Güneş Koruyucu Krem SPF 50, 50 Ml",
+          src: "https://cdn.myikas.com/images/d3378d43-0c01-4053-9a53-957c4ae7edc1/71bbb658-bef0-4049-a8d3-c8319bc17c06/1080/tps209-1.webp",
+        },
+      ],
+    };
+  },
 });
 </script>

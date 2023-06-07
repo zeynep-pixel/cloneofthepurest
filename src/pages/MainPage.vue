@@ -172,7 +172,7 @@
             id="etiket1"
             style="height: 50px; width: 350px"
           >
-            Serum
+            Tonik
           </div>
           <div
             class="row text-center"
@@ -186,7 +186,7 @@
             id="etiket3"
             style="height: 50px; width: 350px"
           >
-            Tüm serumler
+            Tüm tonikler
           </div>
         </div>
         <div class="col">
